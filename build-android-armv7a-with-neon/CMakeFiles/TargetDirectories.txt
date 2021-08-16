@@ -1,0 +1,14 @@
+/Users/huifeng/fh/intel/build-android-armv7a-with-neon/CMakeFiles/install/local.dir
+/Users/huifeng/fh/intel/build-android-armv7a-with-neon/CMakeFiles/install/strip.dir
+/Users/huifeng/fh/intel/build-android-armv7a-with-neon/CMakeFiles/install.dir
+/Users/huifeng/fh/intel/build-android-armv7a-with-neon/CMakeFiles/list_install_components.dir
+/Users/huifeng/fh/intel/build-android-armv7a-with-neon/CMakeFiles/rebuild_cache.dir
+/Users/huifeng/fh/intel/build-android-armv7a-with-neon/CMakeFiles/edit_cache.dir
+/Users/huifeng/fh/intel/build-android-armv7a-with-neon/CMakeFiles/intel.dir
+/Users/huifeng/fh/intel/build-android-armv7a-with-neon/tests/CMakeFiles/install/strip.dir
+/Users/huifeng/fh/intel/build-android-armv7a-with-neon/tests/CMakeFiles/install.dir
+/Users/huifeng/fh/intel/build-android-armv7a-with-neon/tests/CMakeFiles/list_install_components.dir
+/Users/huifeng/fh/intel/build-android-armv7a-with-neon/tests/CMakeFiles/rebuild_cache.dir
+/Users/huifeng/fh/intel/build-android-armv7a-with-neon/tests/CMakeFiles/edit_cache.dir
+/Users/huifeng/fh/intel/build-android-armv7a-with-neon/tests/CMakeFiles/install/local.dir
+/Users/huifeng/fh/intel/build-android-armv7a-with-neon/tests/CMakeFiles/test.dir

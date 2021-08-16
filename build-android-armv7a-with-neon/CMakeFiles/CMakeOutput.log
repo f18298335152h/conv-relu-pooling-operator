@@ -1,0 +1,349 @@
+The target system is: Android - 1 - armv7-a
+The host system is: Darwin - 19.6.0 - x86_64
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/huifeng/fh/intel/build-android-armv7a-with-neon/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_be272/fast && /Users/huifeng/Downloads/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_be272.dir/build.make CMakeFiles/cmTC_be272.dir/build
+Building C object CMakeFiles/cmTC_be272.dir/CMakeCCompilerABI.c.o
+/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/huifeng/fh/sdk/ndk-bundle/sysroot   -isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat   -fPIE   -v -o CMakeFiles/cmTC_be272.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CMakeCCompilerABI.c
+Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
+Target: armv7-none-linux-android16
+Thread model: posix
+InstalledDir: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@march=armv7-a@mthumb
+ "/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple thumbv7-none-linux-android16 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float-abi -target-feature -fp-only-sp -target-feature -d16 -target-feature +vfp3 -target-feature -fp16 -target-feature -vfp4 -target-feature -fp-armv8 -target-feature +neon -target-feature -crypto -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 241.9 -v -ffunction-sections -coverage-notes-file /Users/huifeng/fh/intel/build-android-armv7a-with-neon/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_be272.dir/CMakeCCompilerABI.c.gcno -resource-dir /Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2 -isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D ANDROID -isysroot /Users/huifeng/fh/sdk/ndk-bundle/sysroot -internal-isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/local/include -internal-isystem /Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/include -internal-externc-isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/include -internal-externc-isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include -Wformat -fdebug-compilation-dir /Users/huifeng/fh/intel/build-android-armv7a-with-neon/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_be272.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 7.0.2 based upon LLVM 7.0.2svn default target x86_64-apple-darwin19.6.0
+ignoring nonexistent directory "/Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/local/include"
+ignoring nonexistent directory "/Users/huifeng/fh/sdk/ndk-bundle/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi
+ /Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/include
+ /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include
+End of search list.
+Linking C executable cmTC_be272
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be272.dir/link.txt --verbose=1
+/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/huifeng/fh/sdk/ndk-bundle/sysroot -isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -nostdlib++ --sysroot /Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -L/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fpie  -v CMakeFiles/cmTC_be272.dir/CMakeCCompilerABI.c.o -o cmTC_be272 
+Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
+Target: armv7-none-linux-android16
+Thread model: posix
+InstalledDir: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@march=armv7-a@mthumb
+ "/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm -pie -X --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_be272 /Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm -L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib -L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_be272.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi]
+    add: [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/include]
+    add: [/Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi] ==> [/Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi]
+  collapse include dir [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/include] ==> [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/include]
+  collapse include dir [/Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include] ==> [/Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include]
+  implicit include dirs: [/Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi;/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/include;/Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/huifeng/fh/intel/build-android-armv7a-with-neon/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_be272/fast && /Users/huifeng/Downloads/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_be272.dir/build.make CMakeFiles/cmTC_be272.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_be272.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/huifeng/fh/sdk/ndk-bundle/sysroot   -isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa --noexecstack -Wformat   -fPIE   -v -o CMakeFiles/cmTC_be272.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)]
+  ignore line: [Target: armv7-none-linux-android16]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@mthumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  ignore line: [ "/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple thumbv7-none-linux-android16 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float-abi -target-feature -fp-only-sp -target-feature -d16 -target-feature +vfp3 -target-feature -fp16 -target-feature -vfp4 -target-feature -fp-armv8 -target-feature +neon -target-feature -crypto -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 241.9 -v -ffunction-sections -coverage-notes-file /Users/huifeng/fh/intel/build-android-armv7a-with-neon/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_be272.dir/CMakeCCompilerABI.c.gcno -resource-dir /Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2 -isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D ANDROID -isysroot /Users/huifeng/fh/sdk/ndk-bundle/sysroot -internal-isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/local/include -internal-isystem /Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/include -internal-externc-isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/include -internal-externc-isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include -Wformat -fdebug-compilation-dir /Users/huifeng/fh/intel/build-android-armv7a-with-neon/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_be272.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 7.0.2 based upon LLVM 7.0.2svn default target x86_64-apple-darwin19.6.0]
+  ignore line: [ignoring nonexistent directory "/Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Users/huifeng/fh/sdk/ndk-bundle/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi]
+  ignore line: [ /Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/include]
+  ignore line: [ /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_be272]
+  ignore line: [/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be272.dir/link.txt --verbose=1]
+  ignore line: [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/huifeng/fh/sdk/ndk-bundle/sysroot -isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa --noexecstack -Wformat   -Wl --exclude-libs libgcc.a -Wl --exclude-libs libatomic.a -nostdlib++ --sysroot /Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm -Wl --build-id -Wl --warn-shared-textrel -Wl --fatal-warnings -Wl --fix-cortex-a8 -Wl --exclude-libs libunwind.a -L/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl --no-undefined -Wl -z noexecstack -Qunused-arguments -Wl -z relro -Wl -z now -Wl --gc-sections -Wl -z nocopyreloc -pie -fpie  -v CMakeFiles/cmTC_be272.dir/CMakeCCompilerABI.c.o -o cmTC_be272 ]
+  ignore line: [Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)]
+  ignore line: [Target: armv7-none-linux-android16]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@mthumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  link line: [ "/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm -pie -X --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_be272 /Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm -L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib -L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_be272.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o]
+    arg [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
+    arg [--sysroot=/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-X] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_be272] ==> ignore
+    arg [/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a] ==> dir [/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a]
+    arg [-L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm] ==> dir [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm]
+    arg [-L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
+    arg [-L/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib] ==> dir [/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib]
+    arg [-L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-L/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib] ==> dir [/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libunwind.a] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_be272.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o] ==> ignore
+  collapse library dir [/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a] ==> [/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a]
+  collapse library dir [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm] ==> [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm]
+  collapse library dir [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib] ==> [/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+  collapse library dir [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib] ==> [/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+  implicit libs: [gcc;dl;c;gcc;dl]
+  implicit dirs: [/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a;/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm;/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/huifeng/fh/intel/build-android-armv7a-with-neon/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4b49b/fast && /Users/huifeng/Downloads/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4b49b.dir/build.make CMakeFiles/cmTC_4b49b.dir/build
+Building CXX object CMakeFiles/cmTC_4b49b.dir/CMakeCXXCompilerABI.cpp.o
+/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/huifeng/fh/sdk/ndk-bundle/sysroot  -isystem /Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/huifeng/fh/sdk/ndk-bundle/sources/android/support/include -isystem /Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -std=c++11   -fPIE   -v -o CMakeFiles/cmTC_4b49b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
+Target: armv7-none-linux-android16
+Thread model: posix
+InstalledDir: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@march=armv7-a@mthumb
+ "/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple thumbv7-none-linux-android16 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float-abi -target-feature -fp-only-sp -target-feature -d16 -target-feature +vfp3 -target-feature -fp16 -target-feature -vfp4 -target-feature -fp-armv8 -target-feature +neon -target-feature -crypto -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 241.9 -v -ffunction-sections -coverage-notes-file /Users/huifeng/fh/intel/build-android-armv7a-with-neon/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_4b49b.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2 -isystem /Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/huifeng/fh/sdk/ndk-bundle/sources/android/support/include -isystem /Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D ANDROID -isysroot /Users/huifeng/fh/sdk/ndk-bundle/sysroot -internal-isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/local/include -internal-isystem /Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/include -internal-externc-isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/include -internal-externc-isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include -Wformat -std=c++11 -fdeprecated-macro -fdebug-compilation-dir /Users/huifeng/fh/intel/build-android-armv7a-with-neon/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_4b49b.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 7.0.2 based upon LLVM 7.0.2svn default target x86_64-apple-darwin19.6.0
+ignoring nonexistent directory "/Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/local/include"
+ignoring nonexistent directory "/Users/huifeng/fh/sdk/ndk-bundle/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include
+ /Users/huifeng/fh/sdk/ndk-bundle/sources/android/support/include
+ /Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
+ /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi
+ /Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/include
+ /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include
+End of search list.
+Linking CXX executable cmTC_4b49b
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b49b.dir/link.txt --verbose=1
+/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/huifeng/fh/sdk/ndk-bundle/sysroot -isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -std=c++11   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -nostdlib++ --sysroot /Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -L/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fpie  -v CMakeFiles/cmTC_4b49b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4b49b 
+Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
+Target: armv7-none-linux-android16
+Thread model: posix
+InstalledDir: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@march=armv7-a@mthumb
+ "/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm -pie -X --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_4b49b /Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm -L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib -L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_4b49b.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include]
+    add: [/Users/huifeng/fh/sdk/ndk-bundle/sources/android/support/include]
+    add: [/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include]
+    add: [/Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi]
+    add: [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/include]
+    add: [/Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include] ==> [/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include]
+  collapse include dir [/Users/huifeng/fh/sdk/ndk-bundle/sources/android/support/include] ==> [/Users/huifeng/fh/sdk/ndk-bundle/sources/android/support/include]
+  collapse include dir [/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include] ==> [/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include]
+  collapse include dir [/Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi] ==> [/Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi]
+  collapse include dir [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/include] ==> [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/include]
+  collapse include dir [/Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include] ==> [/Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include]
+  implicit include dirs: [/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include;/Users/huifeng/fh/sdk/ndk-bundle/sources/android/support/include;/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include;/Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi;/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/include;/Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/huifeng/fh/intel/build-android-armv7a-with-neon/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_4b49b/fast && /Users/huifeng/Downloads/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4b49b.dir/build.make CMakeFiles/cmTC_4b49b.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_4b49b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/huifeng/fh/sdk/ndk-bundle/sysroot  -isystem /Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/huifeng/fh/sdk/ndk-bundle/sources/android/support/include -isystem /Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa --noexecstack -Wformat -std=c++11   -fPIE   -v -o CMakeFiles/cmTC_4b49b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)]
+  ignore line: [Target: armv7-none-linux-android16]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@mthumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  ignore line: [ "/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple thumbv7-none-linux-android16 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float-abi -target-feature -fp-only-sp -target-feature -d16 -target-feature +vfp3 -target-feature -fp16 -target-feature -vfp4 -target-feature -fp-armv8 -target-feature +neon -target-feature -crypto -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 241.9 -v -ffunction-sections -coverage-notes-file /Users/huifeng/fh/intel/build-android-armv7a-with-neon/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_4b49b.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2 -isystem /Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/huifeng/fh/sdk/ndk-bundle/sources/android/support/include -isystem /Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D ANDROID -isysroot /Users/huifeng/fh/sdk/ndk-bundle/sysroot -internal-isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/local/include -internal-isystem /Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/include -internal-externc-isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/include -internal-externc-isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include -Wformat -std=c++11 -fdeprecated-macro -fdebug-compilation-dir /Users/huifeng/fh/intel/build-android-armv7a-with-neon/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_4b49b.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 7.0.2 based upon LLVM 7.0.2svn default target x86_64-apple-darwin19.6.0]
+  ignore line: [ignoring nonexistent directory "/Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Users/huifeng/fh/sdk/ndk-bundle/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include]
+  ignore line: [ /Users/huifeng/fh/sdk/ndk-bundle/sources/android/support/include]
+  ignore line: [ /Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include]
+  ignore line: [ /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi]
+  ignore line: [ /Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/include]
+  ignore line: [ /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_4b49b]
+  ignore line: [/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b49b.dir/link.txt --verbose=1]
+  ignore line: [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/huifeng/fh/sdk/ndk-bundle/sysroot -isystem /Users/huifeng/fh/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa --noexecstack -Wformat -std=c++11   -Wl --exclude-libs libgcc.a -Wl --exclude-libs libatomic.a -nostdlib++ --sysroot /Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm -Wl --build-id -Wl --warn-shared-textrel -Wl --fatal-warnings -Wl --fix-cortex-a8 -Wl --exclude-libs libunwind.a -L/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl --no-undefined -Wl -z noexecstack -Qunused-arguments -Wl -z relro -Wl -z now -Wl --gc-sections -Wl -z nocopyreloc -pie -fpie  -v CMakeFiles/cmTC_4b49b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4b49b ]
+  ignore line: [Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)]
+  ignore line: [Target: armv7-none-linux-android16]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@mthumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  link line: [ "/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm -pie -X --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_4b49b /Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm -L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib -L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_4b49b.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o]
+    arg [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
+    arg [--sysroot=/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-X] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_4b49b] ==> ignore
+    arg [/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a] ==> dir [/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a]
+    arg [-L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm] ==> dir [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm]
+    arg [-L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
+    arg [-L/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib] ==> dir [/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib]
+    arg [-L/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-L/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib] ==> dir [/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libunwind.a] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_4b49b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o] ==> ignore
+  collapse library dir [/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a] ==> [/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a]
+  collapse library dir [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm] ==> [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm]
+  collapse library dir [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib] ==> [/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+  collapse library dir [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib] ==> [/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+  implicit libs: [m;gcc;gcc;dl;c;gcc;gcc;dl]
+  implicit dirs: [/Users/huifeng/fh/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a;/Users/huifeng/fh/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/arm;/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/Users/huifeng/fh/sdk/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+  implicit fwks: []
+
+

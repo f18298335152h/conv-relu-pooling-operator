@@ -1,0 +1,2 @@
+/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-ar qc libintel.a CMakeFiles/intel.dir/src/cpu.cpp.o CMakeFiles/intel.dir/src/mat.cpp.o CMakeFiles/intel.dir/src/operator/convolution.cpp.o CMakeFiles/intel.dir/src/operator/fuse_conv_pool_relu.cpp.o CMakeFiles/intel.dir/src/operator/pooling.cpp.o CMakeFiles/intel.dir/src/operator/relu.cpp.o
+/Users/huifeng/fh/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-ranlib libintel.a
