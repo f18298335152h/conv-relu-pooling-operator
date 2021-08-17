@@ -28,6 +28,8 @@
 ### build-x86-64 contain executable file test, please run on pc platform such as Mac , Windows, Linux ect.
 
 ## how to build 
+### open the build.sh file to seeting cmake path for x86 or cross build cmake
+
 1. ./build.sh build for armv7a or x86_64
 2. pytorch_test.py can verify the result ,please run test print result compare with pytorch_test.py with the same input (install torch)
 
